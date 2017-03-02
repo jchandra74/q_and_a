@@ -47,7 +47,7 @@ Ada juga yang mengusulkan untuk malah memisahkan antara ViewModel yang diperuntu
 
 Jaman sekarang dimana sudah ada AutoMapper dan code generation / scaffolding, sudah akan lebih gampang lah untuk memisahkan Entity dengan ViewModel(s).  So, complaining about having to create DTO and mapping it to Entity is no longer a good reason to be lazy.  Create the tool so you don't have to do it every single time.  Be a smart lazy programmer.  Not just a lazy programer :).  If you have to do anything more than once, automate.  There is T4 template that you can leverage or create your own CLI that can take an Entity model, inspect it and barf out your POCO DTO.
 
-Balik lagi, perlu pertimbangan dan lihat situasi.  Kalau cuma spiking, hindari kompleksitas.  Think of it as a spectrum, dial down and dial up the separation based on your project need.
+Balik lagi, perlu pertimbangan dan lihat situasi.  Kalau cuma spiking, hindari kompleksitas.  Think of it as a spectrum, dial down and dial up the separation based on your project's need.
 
 ## Programmer Evolution ##
 
